@@ -1,0 +1,16 @@
+# Core Gmail API and OAuth
+google-api-python-client==2.126.0
+google-auth==2.29.0
+google-auth-oauthlib==1.2.0
+
+# Streamlit for frontend UI
+streamlit==1.35.0
+
+# PostgreSQL DB connector
+psycopg2-binary==2.9.9
+
+# Optional: for cleaner dev/debug experience
+python-dotenv==1.0.1
+
+# Testing tools (optional if not using pytest explicitly)
+pytest==8.2.1
