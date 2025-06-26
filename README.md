@@ -23,7 +23,19 @@ A full-stack backend project to automate Gmail inbox management using user-defin
 
 ## 🧱 Project Structure
 
-<pre lang="text"><code> 📁 gmail_filter_project/ ├── mail_logic.py # Gmail API OAuth & email retrieval ├── postgres_client.py # PostgreSQL interaction logic ├── rules_actions.py # Rule evaluation & Gmail action executor ├── stream_ui.py # Streamlit frontend ├── settings.py # Global config (OAuth file, DB settings) ├── test/ │ └── tests.py # Unit + integration test suite ├── email_rules.json # Stores user's rule config (generated via UI) └── requirements.txt # Python dependencies </code></pre>
+```
+📁 gmail_filter_project/
+├── mail_logic.py           # Gmail API OAuth & email retrieval
+├── postgres_client.py      # PostgreSQL interaction logic
+├── rules_actions.py        # Rule evaluation & Gmail action executor
+├── stream_ui.py            # Streamlit frontend
+├── settings.py             # Global config (OAuth file, DB settings)
+├── test/
+│   └── tests.py            # Unit + integration test suite
+├── email_rules.json        # Stores user's rule config (generated via UI)
+└── requirements.txt        # Python dependencies
+```
+
 
 
 ---
@@ -32,12 +44,16 @@ A full-stack backend project to automate Gmail inbox management using user-defin
 
 ### 1. Clone the Repo
 
+```
 git clone https://github.com/Pragatheesh-I/Gmail_RuleBased_Automation.git
 cd Gmail_RuleBased_Automation
+```
 
 ### 2. Install Dependencies
 
+```
 pip install -r requirements.txt
+```
 
 ### 3. Set Up Google OAuth
 
@@ -49,13 +65,16 @@ pip install -r requirements.txt
 
 ### 4. Run the App
 
+```
 streamlit run stream_ui.py
-
+```
 ---
 
 ### ✅ Running Tests
 
+```
 python test\\tests.py
+```
 
 Tests include:
 - Date parsing and validation
