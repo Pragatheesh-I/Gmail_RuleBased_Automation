@@ -17,9 +17,9 @@ A full-stack backend project to automate Gmail inbox management using user-defin
 
 ## 📸 UI Preview
 
-<img src="assets/ui.png" width="400"/>  
+<img src="assets/ui.png" />  
 <br><br>
-<img src="assets/ui2.png" width="400"/>
+<img src="assets/ui2.png"/>
 
 
 
