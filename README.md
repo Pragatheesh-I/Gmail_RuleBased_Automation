@@ -61,6 +61,8 @@ pip install -r requirements.txt
 
 streamlit run stream_ui.py
 
+---
+
 ### ✅ Running Tests
 
 python test\\tests.py
@@ -71,12 +73,16 @@ Tests include:
 - Mocked Gmail API interactions
 - Mocked DB inserts and fetches
 
+---
+
 ### 💡 Future Improvements
 
 - Add user authentication to the frontend
 - Add frontend dashboard for analytics
 - Dockerize the backend
 - Add scheduling with CRON or Celery
+
+---
 
 ### 👨‍💻 Author
 Praga — Engineering Student passionate about clean backend systems and automation.
