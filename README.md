@@ -23,17 +23,7 @@ A full-stack backend project to automate Gmail inbox management using user-defin
 
 ## 🧱 Project Structure
 
-📁 gmail_filter_project/
-│
-├── mail_logic.py # Gmail API OAuth & email retrieval
-├── postgres_client.py # PostgreSQL interaction logic
-├── rules_actions.py # Rule evaluation & Gmail action executor
-├── stream_ui.py # Streamlit frontend
-├── settings.py # Global config (OAuth file, DB settings)
-├── test/
-│ └── tests.py # Unit + integration test suite
-├── email_rules.json # Stores user's rule config (generated via UI)
-└── requirements.txt # Python dependencies
+<pre lang="text"><code> 📁 gmail_filter_project/ ├── mail_logic.py # Gmail API OAuth & email retrieval ├── postgres_client.py # PostgreSQL interaction logic ├── rules_actions.py # Rule evaluation & Gmail action executor ├── stream_ui.py # Streamlit frontend ├── settings.py # Global config (OAuth file, DB settings) ├── test/ │ └── tests.py # Unit + integration test suite ├── email_rules.json # Stores user's rule config (generated via UI) └── requirements.txt # Python dependencies </code></pre>
 
 
 ---
