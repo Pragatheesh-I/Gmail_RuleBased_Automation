@@ -88,6 +88,23 @@ Tests include:
 
 ---
 
+### ✏️ Rule Editor Details
+
+Conditions
+
+- Field: From, To, Subject, Received Date/Time, Message
+- Predicate (for text): contains, does not contain, equals, does not equal
+- Predicate (for date): less than, greater than (with "days" or "months")
+- Value: The text or number for comparison
+
+Actions
+
+- Mark as Read/Unread
+- Move Message (Inbox, Forum, Updates, Promotions)
+- Star/Unstar
+- Archive (remove INBOX label)
+- Trash (moves email to Trash)
+
 ### 💡 Future Improvements
 
 - Add user authentication to the frontend
