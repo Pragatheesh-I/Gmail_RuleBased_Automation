@@ -117,7 +117,7 @@ Actions
 ---
 
 ### 👨‍💻 Author
-Praga — Engineering Student passionate about clean backend systems and automation.
+Pragatheesh — Engineering Student passionate about clean backend systems and automation.
 
 ---
 
