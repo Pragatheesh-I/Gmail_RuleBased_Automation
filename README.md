@@ -119,3 +119,8 @@ Actions
 ### 👨‍💻 Author
 Praga — Engineering Student passionate about clean backend systems and automation.
 
+---
+
+### 📌 License
+
+📝 This project is open-source and available under the MIT License.
