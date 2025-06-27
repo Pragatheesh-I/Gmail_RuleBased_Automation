@@ -1,0 +1,15 @@
+{
+    "match_policy": "All",
+    "rules": [
+        {
+            "field": "From",
+            "predicate": "contains",
+            "value": " Spotify <no-reply@spotify.com> "
+        }
+    ],
+    "actions": [
+        {
+            "action": "mark as read"
+        }
+    ]
+}
