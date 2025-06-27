@@ -105,6 +105,8 @@ Actions
 - Archive (remove INBOX label)
 - Trash (moves email to Trash)
 
+---
+
 ### 💡 Future Improvements
 
 - Add user authentication to the frontend
